@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/color_primary" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/color_primary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:contentInsetStartWithNavigation="0dp"
+            app:titleTextColor="@color/text_color_title" />
+
+        <FrameLayout
+            android:id="@+id/fl_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom_navigation_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="?android:attr/windowBackground"
+            app:itemIconTint="@color/information_check_tint"
+            app:itemTextColor="@drawable/compound_button_text"
+            app:menu="@menu/menu_bottom_navigation" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg"
+            android:paddingBottom="56dp"
+            app:elevation="0dp"
+            app:headerLayout="@layout/layout_navigation_header"
+            app:insetForeground="@color/transparent"
+            app:itemBackground="@drawable/bg_navigation_item"
+            app:itemIconTint="@color/color_accent"
+            app:itemTextAppearance="@style/navigationViewTextAppearance"
+            app:itemTextColor="@color/color_accent"
+            app:menu="@menu/menu_navigation" />
+
+        <TextView
+            android:id="@+id/tv_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/sixteen"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_nav_setting"
+            android:drawablePadding="@dimen/eight"
+            android:drawableTint="@color/navigation_tint"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="@drawable/navigation_text"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:id="@+id/tv_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/sixteen"
+            android:layout_toEndOf="@id/tv_setting"
+            android:layout_toRightOf="@id/tv_setting"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_nav_night_mode"
+            android:drawablePadding="@dimen/eight"
+            android:drawableTint="@color/navigation_tint"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="夜间"
+            android:textColor="@drawable/navigation_text"
+            android:textSize="@dimen/text_size_small" />
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

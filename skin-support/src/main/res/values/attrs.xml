@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SkinBackgroundHelper">
+        <attr name="android:background" />
+        <attr name="android:backgroundTint" />
+        <attr name="android:foreground" />
+        <attr name="android:foregroundTint" />
+    </declare-styleable>
+    <declare-styleable name="SkinTextHelper">
+        <attr name="android:textAppearance" />
+        <attr name="android:textColor" />
+        <attr name="android:textColorHint" />
+        <attr name="android:textColorLink" />
+        <attr name="android:textColorHighlight" />
+        <attr name="android:textCursorDrawable" />
+        <attr name="android:shadowColor" />
+        <attr name="android:textSelectHandle" />
+        <attr name="android:textSelectHandleLeft" />
+        <attr name="android:textSelectHandleRight" />
+        <attr name="android:drawableLeft" />
+        <attr name="android:drawableTop" />
+        <attr name="android:drawableRight" />
+        <attr name="android:drawableBottom" />
+        <attr name="android:drawableStart" />
+        <attr name="android:drawableEnd" />
+        <attr name="android:drawableTint" />
+    </declare-styleable>
+    <declare-styleable name="SkinTextAppearance">
+        <attr name="android:textColor" />
+        <attr name="android:textColorHint" />
+        <attr name="android:textColorLink" />
+        <attr name="android:textColorHighlight" />
+    </declare-styleable>
+    <declare-styleable name="SkinAutoCompleteTextViewHelper">
+        <attr name="android:popupBackground" />
+        <attr name="popupTheme" />
+    </declare-styleable>
+    <declare-styleable name="SkinCompoundButtonHelper">
+        <attr name="android:button" />
+        <attr name="android:buttonTint" />
+    </declare-styleable>
+    <declare-styleable name="SkinSwitchHelper">
+        <attr name="android:switchTextAppearance" />
+        <attr name="android:thumb" />
+        <attr name="android:thumbTint" />
+        <attr name="thumbTint" />
+        <attr name="android:track" />
+        <attr name="android:trackTint" />
+        <attr name="trackTint" />
+    </declare-styleable>
+    <declare-styleable name="SkinSwitchCompatHelper">
+        <attr name="android:switchTextAppearance" />
+        <attr name="switchTextAppearance" />
+        <attr name="android:thumb" />
+        <attr name="android:thumbTint" />
+        <attr name="thumbTint" />
+        <attr name="android:track" />
+        <attr name="track" />
+        <attr name="android:trackTint" />
+        <attr name="trackTint" />
+    </declare-styleable>
+    <declare-styleable name="SkinCheckMarkHelper">
+        <attr name="android:checkMark" />
+        <attr name="android:checkMarkTint" />
+    </declare-styleable>
+    <declare-styleable name="SkinImageHelper">
+        <attr name="android:src" />
+        <attr name="android:tint" />
+        <attr name="srcCompat" />
+    </declare-styleable>
+    <declare-styleable name="SkinProgressBarHelper">
+        <attr name="android:progressDrawable" />
+        <attr name="android:indeterminateDrawable" />
+        <attr name="android:progressTint" />
+        <attr name="android:secondaryProgressTint" />
+        <attr name="android:progressBackgroundTint" />
+        <attr name="android:indeterminateTint" />
+    </declare-styleable>
+    <declare-styleable name="SkinSeekBarHelper">
+        <attr name="android:thumb" />
+        <attr name="android:thumbTint" />
+        <attr name="android:tickMark" />
+        <attr name="android:tickMarkTint" />
+    </declare-styleable>
+    <declare-styleable name="SkinSpinnerHelper">
+        <attr name="android:popupBackground" />
+        <attr name="popupTheme" />
+    </declare-styleable>
+    <declare-styleable name="SkinAbsListViewHelper">
+        <attr name="android:listSelector" />
+        <attr name="android:divider" />
+    </declare-styleable>
+    <declare-styleable name="SkinToolbarHelper">
+        <attr name="titleTextAppearance" format="reference" />
+        <attr name="subtitleTextAppearance" format="reference" />
+        <attr name="titleTextColor" />
+        <attr name="subtitleTextColor" />
+        <attr name="popupTheme" />
+        <attr name="collapseIcon" format="reference" />
+        <attr name="navigationIcon" format="reference" />
+        <attr name="logo" />
+    </declare-styleable>
+    <declare-styleable name="SearchView">
+        <attr name="closeIcon" format="reference" />
+        <attr name="goIcon" format="reference" />
+        <attr name="searchIcon" format="reference" />
+        <attr name="searchHintIcon" format="reference" />
+        <attr name="voiceIcon" format="reference" />
+        <attr name="commitIcon" format="reference" />
+        <attr name="queryBackground" format="reference" />
+        <attr name="submitBackground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SkinDrawerLayoutHelper">
+        <attr name="statusBarBackground" />
+    </declare-styleable>
+
+    <declare-styleable name="SkinCollapsingToolbarLayoutHelper">
+        <attr name="expandedTitleTextAppearance" />
+        <attr name="collapsedTitleTextAppearance" />
+        <attr name="statusBarScrim" />
+        <attr name="contentScrim" />
+    </declare-styleable>
+    <declare-styleable name="SkinCoordinatorLayoutHelper">
+        <attr name="statusBarBackground" />
+    </declare-styleable>
+    <declare-styleable name="SkinTabLayoutHelper">
+        <attr name="tabBackground" format="reference" />
+        <attr name="tabIndicatorColor" format="color" />
+        <attr name="tabTextAppearance" format="reference" />
+        <attr name="tabTextColor" format="color" />
+        <attr name="tabSelectedTextColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="SkinTextInputLayoutHelper">
+        <attr name="android:textColorHint" />
+        <attr name="hintTextAppearance" format="reference" />
+        <attr name="errorTextAppearance" format="reference" />
+        <attr name="counterTextAppearance" format="reference" />
+        <attr name="counterOverflowTextAppearance" format="reference" />
+        <attr name="passwordToggleDrawable" format="reference" />
+        <attr name="passwordToggleTint" format="color" />
+    </declare-styleable>
+    <declare-styleable name="SkinFloatingActionButtonHelper">
+        <attr name="backgroundTint" />
+        <attr name="rippleColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="SkinNavigationViewHelper">
+        <attr name="itemBackground" />
+        <attr name="itemIconTint" />
+        <attr name="itemTextAppearance" />
+        <attr name="itemTextColor" />
+    </declare-styleable>
+    <declare-styleable name="SkinBottomNavigationViewHelper">
+        <attr name="itemBackground" />
+        <attr name="itemIconTint" />
+        <attr name="itemTextColor" />
+    </declare-styleable>
+
+    <declare-styleable name="SkinRecyclerViewHelper">
+        <attr name="fastScrollVerticalThumbDrawable" />
+        <attr name="fastScrollVerticalTrackDrawable" />
+        <attr name="fastScrollHorizontalThumbDrawable" />
+        <attr name="fastScrollHorizontalTrackDrawable" />
+    </declare-styleable>
+    <declare-styleable name="SkinCardViewHelper">
+        <attr name="cardBackgroundColor" format="color" />
+    </declare-styleable>
+</resources>

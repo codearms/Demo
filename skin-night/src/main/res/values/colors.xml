@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--night主题-->
+    <color name="color_primary_night">#424242</color>
+    <color name="color_primary_dark_night">#212121</color>
+    <color name="color_accent_night">#EEEEEE</color>
+    <color name="color_accent_30_night">#4DEEEEEE</color>
+    <color name="bg_night">#616161</color>
+    <color name="text_color_title_night">#ffffff</color>
+    <color name="text_color_primary_night">#ffffff</color>
+    <color name="text_color_hint_night">#A9A9A9</color>
+    <color name="text_color_hint_30_night">#D3D3D3</color>
+    <color name="text_color_highlight_night">#4DEEEEEE</color>
+    <!--<color name="text_color_btn">#ffffff</color>-->
+    <color name="bg_btn_night">#424242</color>
+    <color name="bg_btn_enabled_false_night">#4D424242</color>
+    <color name="bg_btn_pressed_true_night">#212121</color>
+
+    <color name="transparent">#00FFFFFF</color>
+</resources>

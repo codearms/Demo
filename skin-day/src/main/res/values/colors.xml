@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--day主题-->
+    <color name="color_primary_day">#eeeeee</color>
+    <color name="color_primary_dark_day">#d0d0d0</color>
+    <color name="color_accent_day">#9C27B0</color>
+    <color name="color_accent_30_day">#4D9C27B0</color>
+    <!--<color name="bg">#f8f8f8</color>-->
+    <color name="text_color_title_day">#3a3a3a</color>
+    <!--<color name="text_color_primary">#3a3a3a</color>-->
+    <color name="text_color_hint_day">#808080</color>
+    <color name="text_color_hint_30_day">#4D808080</color>
+    <color name="text_color_highlight_day">#4D9C27B0</color>
+    <!--<color name="text_color_btn">#ffffff</color>-->
+    <color name="bg_btn_day">#e0e0e0</color>
+    <color name="bg_btn_enabled_false_day">#eeeeee</color>
+    <color name="bg_btn_pressed_true_day">#d0d0d0</color>
+
+    <color name="transparent">#00FFFFFF</color>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--蓝色主题-->
+    <color name="color_primary">#03A9F4</color>
+    <color name="color_primary_dark">#039BE5</color>
+    <color name="color_accent">#00BCD4</color>
+    <color name="color_accent_30">#4D00BCD4</color>
+    <color name="bg">#f8f8f8</color>
+    <color name="text_color_title">#ffffff</color>
+    <color name="text_color_primary">#3a3a3a</color>
+    <color name="text_color_hint">#808080</color>
+    <color name="text_color_hint_30">#4D808080</color>
+    <color name="text_color_highlight">#4D00BCD4</color>
+    <color name="text_color_btn">#ffffff</color>
+    <color name="bg_btn">#03A9F4</color>
+    <color name="bg_btn_enabled_false">#4D03A9F4</color>
+    <color name="bg_btn_pressed_true">#03A9F4</color>
+
+    <!-- 绿色主题 -->
+    <color name="color_primary_green">#4CAF50</color>
+    <color name="color_primary_dark_green">#43A047</color>
+    <color name="color_accent_green">#CDDC39</color>
+    <color name="color_accent_30_green">#4DCDDC39</color>
+    <!--<color name="bg">#f8f8f8</color>-->
+    <!--<color name="text_color_title">#ffffff</color>-->
+    <!--<color name="text_color_primary">#3a3a3a</color>-->
+    <color name="text_color_hint_green">#808080</color>
+    <color name="text_color_hint_30_green">#4D808080</color>
+    <color name="text_color_highlight_green">#4DCDDC39</color>
+    <!--<color name="text_color_btn">#ffffff</color>-->
+    <color name="bg_btn_green">#4CAF50</color>
+    <color name="bg_btn_enabled_false_green">#4D4CAF50</color>
+    <color name="bg_btn_pressed_true_green">#43A047</color>
+
+    <!--红色主题-->
+    <color name="color_primary_red">#F44336</color>
+    <color name="color_primary_dark_red">#B52525</color>
+    <color name="color_accent_red">#FFC107</color>
+    <color name="color_accent_30_red">#4DFFC107</color>
+    <!--<color name="bg">#f8f8f8</color>-->
+    <!--<color name="text_color_title">#ffffff</color>-->
+    <!--<color name="text_color_primary">#3a3a3a</color>-->
+    <color name="text_color_hint_red">#808080</color>
+    <color name="text_color_hint_30_red">#4D808080</color>
+    <color name="text_color_highlight_red">#4DFFC107</color>
+    <!--<color name="text_color_btn">#ffffff</color>-->
+    <color name="bg_btn_red">#F44336</color>
+    <color name="bg_btn_enabled_false_red">#4DF44336</color>
+    <color name="bg_btn_pressed_true_red">#B52525</color>
+
+    <!--公共的-->
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="line">#cccccc</color>
+    <color name="light_grey">#D3D3D3</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="gray">#808080</color>
+</resources>

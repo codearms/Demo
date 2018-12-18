@@ -1,0 +1,91 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ActionBarDrawerToggle 图标颜色 -->
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <!--<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+    </style>
+
+    <style name="AppTheme.Transparent" parent="AppTheme" />
+
+    <style name="AppTheme.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="text_input_hint" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/color_primary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_input_hint_green" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/color_primary_green</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_input_hint_red" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/color_primary_red</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="switch_text_appearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@drawable/switch_text</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="calendar_text_appearance" parent="TextAppearance.AppCompat">
+        <!--<item name="android:textColor">@color/color_primary_text</item>-->
+    </style>
+
+    <style name="calendar_text_appearance_green" parent="TextAppearance.AppCompat">
+        <!--<item name="android:textColor">@color/color_primary_text_green</item>-->
+    </style>
+
+    <style name="compound_button" parent="Theme.AppCompat.Light">
+        <!-- 激活状态时的颜色 轨迹颜色默认为 30%这个颜色 -->
+        <item name="colorControlActivated">@color/color_primary</item>
+        <!-- 普通状态时的颜色 -->
+        <item name="colorSwitchThumbNormal">@color/gray</item>
+        <!-- 关闭时的轨迹颜色取30%的颜色 -->
+        <!--<item name="android:colorForeground">@color/black</item>-->
+    </style>
+
+    <style name="compound_button_green" parent="Theme.AppCompat.Light">
+        <!-- 激活状态时的颜色 轨迹颜色默认为 30%这个颜色 -->
+        <item name="colorControlActivated">@color/color_primary_green</item>
+        <!-- 普通状态时的颜色 -->
+        <item name="colorSwitchThumbNormal">@color/gray</item>
+        <!-- 关闭时的轨迹颜色取30%的颜色 -->
+        <!--<item name="android:colorForeground">@color/black</item>-->
+    </style>
+
+    <style name="rating" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/rating_bar</item>
+    </style>
+
+    <style name="navigationViewTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--项目描述标题栏展开样式-->
+    <style name="projectIntroductionExpandedTitleTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/transparent</item>
+    </style>
+
+    <style name="a" parent="@android:style/TextAppearance">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/color_primary_red</item>
+    </style>
+
+    <style name="b" parent="@android:style/TextAppearance">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/color_primary_green</item>
+    </style>
+</resources>
